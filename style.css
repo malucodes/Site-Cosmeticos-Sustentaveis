@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    background-color: #c2bbbb70;
+
+}
+
+h1{
+    font-family: "Playfair Display", sans-serif;
+    color: #757400;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+    padding-right: 20px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    font-family: "Manrope", serif;
+    font-weight: 400;
+    gap: 100px;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    padding: 40px;
+}
+
+nav a:link{
+    list-style: none;
+    text-decoration: none;
+    color: #b1bf63;
+}
+
+.folha{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    width: 50px;
+    height: 1px;
+    background-color: #757400;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.babosa{
+    height: 550px;
+    width: 100%;
+}
+
+.home{
+    background-image: url(imagens/babosa.jpg);
+    height: 550px;
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: 10;
+    position: relative;
+    display: flex;
+}
+
+.natsust{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: left;
+}
